@@ -519,6 +519,20 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-height: 548px;
+    min-height: 584px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-modal {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
 }
