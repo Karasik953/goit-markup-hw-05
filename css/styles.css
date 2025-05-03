@@ -511,7 +511,6 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    padding: 72px 24px 24px 24px;
 }
 
 .backdrop.is-open {
@@ -535,6 +534,7 @@ img {
     transform: translate(-50%, -50%);
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 
     
 
@@ -555,7 +555,7 @@ img {
     width: 24px;
     height: 24px;
     background-color: #e7e9fc;;
-    
+    border: 1px solid rgba(0, 0, 0, 0.1); border: 1px solid rgba(0, 0, 0, 0.1);
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -592,7 +592,21 @@ img {
     text-align: center;
     color: #2e2f42;
 
-    position: relative;
     margin-bottom: 16px;
-    top: 72px;
+
+}
+
+.form-lab {
+    margin-bottom: 8px;
+}
+
+.form-l {
+    display: block;
+    margin-bottom: 8px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99
 }
