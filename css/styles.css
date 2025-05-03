@@ -681,6 +681,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    cursor: pointer;
 }
 
 .span-check {
@@ -696,3 +697,16 @@ img {
     fill: transparent;
 }
 
+.visually-hidden {
+    display: none;
+}
+
+.checkbox input:checked+.label-chek .span-check svg {
+    display: block;
+    /* Показываем SVG при активном чекбоксе */
+}
+
+.checkbox input:checked+.label-chek .span-check {
+    background-color: #4D5AE5;
+    border-color: #4D5AE5;
+}
