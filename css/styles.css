@@ -667,3 +667,7 @@ img {
 .textarea-form:focus {
     border-color: #4D5AE5;
 }
+
+.checkbox {
+    margin-bottom: 24px;
+}
