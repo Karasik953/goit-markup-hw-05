@@ -644,6 +644,10 @@ img {
     fill: #4D5AE5;
 }
 
+.form-user:hover+svg .name {
+    fill: #4D5AE5;
+}
+
 .big-input {
     margin-bottom: 16px;
 }
