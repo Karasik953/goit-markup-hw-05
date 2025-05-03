@@ -640,11 +640,11 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-user:focus + svg .name {
+.form-user:focus + .names {
     fill: #4D5AE5;
 }
 
-.form-user:hover+svg .name {
+.form-user:hover + .names {
     fill: #4D5AE5;
 }
 
